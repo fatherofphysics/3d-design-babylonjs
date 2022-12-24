@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3d Modal T-shirt</title>
+
+    <!-- babylone js -->
+    <script src="https://cdn.babylonjs.com/babylon.js" defer></script>
+    <script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js" defer></script>
+    <script src="https://code.jquery.com/pep/0.4.3/pep.js" defer></script>
+
+    <!-- dat gui -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.9/dat.gui.min.js" integrity="sha512-WoO4Ih0CDOSLYafy22wZD/mcJ7k0ESLqtQsFa6zFKnEUrbtuGU+GkLtVhgt93xa2qewG5gKEC6CWlN8OaCTSVg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+
+    <!-- custom js -->
+    <script src="app.js" defer></script>
+
+    <!-- css -->
+    <style>
+        html,body{
+            margin: 0;
+            overflow: hidden;
+            position: relative;
+        }
+        canvas{
+            width: 100%;
+            height: 100%;
+            touch-action: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="datGUI"></div>
+    <canvas id="myCanvas"></canvas>
+</body>
+</html>
